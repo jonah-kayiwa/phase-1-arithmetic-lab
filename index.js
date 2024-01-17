@@ -1,27 +1,9 @@
 
-// Write your code here
-//MULTIPLY//
-num1 = 31  
-num2 = 2   
-multiply = (num1 * num2)
-print(multiply)
-
-
-//RANDOM //
-import (random)
-{
-random_number = random.randint(1, 100)  
-print(random_number)
-}
-
-//REMAINDER 4//
-num3 = 14  
-num4 = 5  
-mod = (num3 % num4)
-print(mod)
-
-
-//MAXIMU 20//
-numbers_set = [12, 14, 16, 18, 20] 
-max_value = max(numbers_set)
-print(max_value)
+const num1 = 31;
+const num2 = 2;
+const num3 = 18;
+const num4 = 7;
+const multiply = num1 * num2
+const mod = num3 % num4 
+let random = Math.floor(Math.random() * 10) + 1;
+let max = Math.max(1, 2, 3, 4, 20);
